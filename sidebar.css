@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(237, 237, 237);
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 120px;
+    background-color: white;
+    border-bottom: 1px solid gray;
+}
+.sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    width: 100px;
+    background-color: white;
+}
+.sidebar-link {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.sidebar-link:hover {
+    background-color: rgb(222, 220, 220);
+}
+.sidebar-link img {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 5px;
+}
+.sidebar-link div {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+.right-section {
+    display: flex;
+    gap: 30px;
+}
+.right-section img {
+    width: 32px;
+    height: 32px;
+}
+.youtube-logo {
+    height: 32px;
+}
+.middle-section button {
+    height: 32px;
+    width: 32px;
+}
+.dp {
+    border-radius: 50px;
+}
+.middle-section {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    max-width: 600px;
+    padding: 0 10px;
+    gap: 10px;
+}
+.middle-section input {
+    padding: 10px;
+    height: 32px;
+    border-radius: 50px ;
+    flex: 1;
+    outline: none;
+}
+.middle-section button {
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    cursor: pointer;
+}
+main {
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+    margin-left: 115px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.vdo {
+    width: 31%;
+    
+}
+.thumbnail {
+    position: relative;
+}
+.thumbnail span {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+.thumbnail img {
+    width: 100%;
+}
+.logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+.vdo-info {
+    display: flex;
+    gap: 10px;
+}
